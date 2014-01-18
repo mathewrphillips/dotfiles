@@ -24,7 +24,6 @@ set nowrap                " don't wrap text
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
-Bundle 'FredKSchott/CoVim'
 
 "visual columns instead of lines
 nnoremap j gj
