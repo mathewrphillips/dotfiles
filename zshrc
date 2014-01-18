@@ -10,7 +10,10 @@ ZSH_THEME="lambda"
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
+function chpwd() {
+    emulate -L zsh
+        ls -a
+}
 alias ..="cd .."
 alias ...="cd ../.."
 alias ls="ls -lah"
