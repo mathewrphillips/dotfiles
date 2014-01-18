@@ -16,6 +16,7 @@ alias ...="cd ../.."
 alias ls="ls -lah"
 alias reload="source ~/.zshrc"
 alias edit="vim ~/.zshrc"
+alias ignore="git status --porcelain | grep '^??' | cut -c4- >>.gitignore"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
