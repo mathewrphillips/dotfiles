@@ -58,7 +58,7 @@ alias ignore="git status --porcelain | grep '^??' | cut -c4- >>.gitignore"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-
+source /usr/bin/z.sh
 # User configuration
 
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/matt/.cabal/bin"
