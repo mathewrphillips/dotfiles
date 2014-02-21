@@ -20,12 +20,6 @@ set expandtab             " use spaces instead of tabs
 set smarttab              " use tabs at the start of a line, spaces elsewhere
 set nowrap                " don't wrap text
 
-" vundle setup
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
-Bundle 'scrooloose/syntastic'
-
 "visual columns instead of lines
 nnoremap j gj
 nnoremap k gk
@@ -33,3 +27,9 @@ nnoremap k gk
 "my fav shortcuts
 nmap .. :w<CR>
 imap jj <Esc> 
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+Bundle 'scrooloose/syntastic'
