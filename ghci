@@ -1,3 +1,0 @@
-:set prompt "λ: "
-:def hoogle \x -> return $ ":!hoogle \"" ++ x ++ "\" | less"
-:def doc \x -> return $ ":!hoogle --info \"" ++ x ++ "\""

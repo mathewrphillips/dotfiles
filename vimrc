@@ -28,8 +28,14 @@ nnoremap k gk
 nmap .. :w<CR>
 imap jj <Esc> 
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 Bundle 'gmarik/vundle'
 Bundle 'scrooloose/syntastic'
+Bundle 'tpope/vim-fireplace'
+Bundle 'vim-scripts/paredit.vim'
+
+
+call vundle#end()
+filetype plugin indent on
